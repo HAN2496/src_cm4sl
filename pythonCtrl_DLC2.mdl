@@ -1,13 +1,13 @@
 Model {
   Name			  "pythonCtrl_DLC2"
   Version		  10.3
-  SavedCharacterEncoding  "windows-1252"
+  SavedCharacterEncoding  "windows-949"
   ModelUUID		  "0078b453-0220-4dc6-9b8c-e2f25f902eb2"
   GraphicalInterface {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "11.16"
+    ComputedModelVersion    "11.17"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -19,7 +19,7 @@ Model {
     IsExportFunctionModel   0
     SimulinkSubDomainType   "Simulink"
     NumParameterArguments   0
-    NumExternalFileReferences 46
+    NumExternalFileReferences 45
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "pythonCtrl_DLC2/CarMaker/CM_LAST/Read CM Dict1"
@@ -132,12 +132,6 @@ Model {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "pythonCtrl_DLC2/CarMaker/Steering/Read CM Dict1"
       SID		      "5333"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "CarMaker4SL/Read CM Dict"
-      Path		      "pythonCtrl_DLC2/CarMaker/Steering/Read CM Dict2"
-      SID		      "5671"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
@@ -325,7 +319,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-8.0, -8.0, 2576.0, 1416.0]
+      Location		      [8.0, 8.0, 1940.0, 1100.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -348,50 +342,72 @@ Model {
 	Dimension		24
 	Object {
 	  $ObjectID		  5
-	  IsActive		  [1]
-	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "5329"
-	  Extents		  [2522.0, 1174.0]
-	  ZoomFactor		  [1.75]
-	  Offset		  [-44.374274580872338, -93.8693720674743]
-	  SceneRectInView	  [-44.374274580872338, -93.8693720674743, 1441.1428571428571, 670.85714285714289]
-	}
-	Object {
-	  $ObjectID		  6
 	  IsActive		  [0]
 	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1726"
+	  Extents		  [1886.0, 858.0]
+	  ZoomFactor		  [1.278960817717206]
+	  Offset		  [-368.82197093513366, -77.101196822283669]
+	  SceneRectInView	  [-368.82197093513366, -77.101196822283669, 1474.6346986346987, 670.85714285714289]
+	}
+	Object {
+	  $ObjectID		  6
+	  IsActive		  [1]
+	  IsTabbed		  [1]
+	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "1740"
-	  Extents		  [2522.0, 1174.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-946.24860929319379, -63.516579406631763]
-	  SceneRectInView	  [-946.24860929319379, -63.516579406631763, 2522.0, 1174.0]
+	  Extents		  [1886.0, 858.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-401.66562499999964, 221.09999999999997]
+	  SceneRectInView	  [-401.66562499999964, 221.09999999999997, 1508.8, 686.4]
 	}
 	Object {
 	  $ObjectID		  7
 	  IsActive		  [0]
 	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2196"
-	  Extents		  [2522.0, 1174.0]
-	  ZoomFactor		  [2.0100956429330497]
-	  Offset		  [46.479166574851888, 276.96425619083288]
-	  SceneRectInView	  [46.479166574851888, 276.96425619083288, 1254.6666666666667, 584.0518107322232]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1886.0, 858.0]
+	  ZoomFactor		  [3.9187590210477894]
+	  Offset		  [-48.27021708015269, 0.026567799697232886]
+	  SceneRectInView	  [-48.27021708015269, 0.026567799697232886, 481.27480916030538, 218.94686440060553]
 	}
 	Object {
 	  $ObjectID		  8
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1726"
-	  Extents		  [2522.0, 1174.0]
-	  ZoomFactor		  [1.75]
-	  Offset		  [-352.07605018921288, -77.101196822283669]
-	  SceneRectInView	  [-352.07605018921288, -77.101196822283669, 1441.1428571428571, 670.85714285714289]
+	  LoadSaveID		  "2210"
+	  Extents		  [1886.0, 858.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-1001.26171875, -216.75]
+	  SceneRectInView	  [-1001.26171875, -216.75, 1886.0, 858.0]
 	}
 	Object {
 	  $ObjectID		  9
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "5329"
+	  Extents		  [1886.0, 858.0]
+	  ZoomFactor		  [1.278960817717206]
+	  Offset		  [-61.120195326793123, -93.8693720674743]
+	  SceneRectInView	  [-61.120195326793123, -93.8693720674743, 1474.6346986346987, 670.85714285714289]
+	}
+	Object {
+	  $ObjectID		  10
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "2196"
+	  Extents		  [1886.0, 858.0]
+	  ZoomFactor		  [1.4690477526716836]
+	  Offset		  [31.900078555636924, 276.96425619083288]
+	  SceneRectInView	  [31.900078555636924, 276.96425619083288, 1283.8248427050967, 584.0518107322232]
+	}
+	Object {
+	  $ObjectID		  11
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -402,18 +418,7 @@ Model {
 	  SceneRectInView	  [237.37097343018385, -203.87475625997894, 1441.1428571428571, 670.85714285714289]
 	}
 	Object {
-	  $ObjectID		  10
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2210"
-	  Extents		  [1882.0, 814.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-498.12158819646532, -181.27539038974282]
-	  SceneRectInView	  [-498.12158819646532, -181.27539038974282, 1882.0, 814.0]
-	}
-	Object {
-	  $ObjectID		  11
+	  $ObjectID		  12
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -424,7 +429,7 @@ Model {
 	  SceneRectInView	  [-142.7261904761902, -28.088095238095207, 630.5, 293.5]
 	}
 	Object {
-	  $ObjectID		  12
+	  $ObjectID		  13
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -435,7 +440,7 @@ Model {
 	  SceneRectInView	  [-948.76171875, -313.0, 2522.0, 1174.0]
 	}
 	Object {
-	  $ObjectID		  13
+	  $ObjectID		  14
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -446,7 +451,7 @@ Model {
 	  SceneRectInView	  [-385.51770833333342, -67.500000000000057, 1261.0, 587.0]
 	}
 	Object {
-	  $ObjectID		  14
+	  $ObjectID		  15
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -457,7 +462,7 @@ Model {
 	  SceneRectInView	  [-297.08258928571433, -141.85714285714295, 1441.1428571428571, 670.85714285714289]
 	}
 	Object {
-	  $ObjectID		  15
+	  $ObjectID		  16
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -468,7 +473,7 @@ Model {
 	  SceneRectInView	  [-112.93749999999943, 231.84240985065605, 1261.0, 587.0]
 	}
 	Object {
-	  $ObjectID		  16
+	  $ObjectID		  17
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -477,17 +482,6 @@ Model {
 	  ZoomFactor		  [2.3775933609958506]
 	  Offset		  [-238.80573734729489, 25.111692844677151]
 	  SceneRectInView	  [-238.80573734729489, 25.111692844677151, 1060.7364746945898, 493.7766143106457]
-	}
-	Object {
-	  $ObjectID		  17
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
-	  Extents		  [1882.0, 814.0]
-	  ZoomFactor		  [3.9104477611940296]
-	  Offset		  [-48.27021708015269, 5.4198473282442734]
-	  SceneRectInView	  [-48.27021708015269, 5.4198473282442734, 481.27480916030538, 208.16030534351145]
 	}
 	Object {
 	  $ObjectID		  18
@@ -617,19 +611,6 @@ Model {
 	Dimension		2
 	Object {
 	  $ObjectID		  29
-	  Type			  "Simulink:Editor:ReferencedFiles"
-	  ID			  "Referenced Files"
-	  Visible		  [0]
-	  CreateCallback	  ""
-	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
-	  Floating		  [0]
-	  DockPosition		  "Left"
-	  Width			  [640]
-	  Height		  [480]
-	  Minimized		  "Unset"
-	}
-	Object {
-	  $ObjectID		  30
 	  Type			  "GLUE2:PropertyInspector"
 	  ID			  "Property Inspector"
 	  Visible		  [0]
@@ -641,6 +622,19 @@ Model {
 	  Height		  [480]
 	  Minimized		  "Unset"
 	}
+	Object {
+	  $ObjectID		  30
+	  Type			  "Simulink:Editor:ReferencedFiles"
+	  ID			  "Referenced Files"
+	  Visible		  [0]
+	  CreateCallback	  ""
+	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
+	  Floating		  [0]
+	  DockPosition		  "Left"
+	  Width			  [640]
+	  Height		  [480]
+	  Minimized		  "Unset"
+	}
 	PropName		"DockComponentsInfo"
       }
       WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
@@ -648,7 +642,7 @@ Model {
       "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAABgAFMAaQBtAHUAb"
       "ABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZ"
       "QBzAAAAAAD/////AAAAjAD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
-      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAKAAAABNMAAAABAAAAAgAAAAEAAAAC/"
+      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAHhAAAA5cAAAABAAAAAgAAAAEAAAAC/"
       "AAAAAA="
       Array {
 	Type			"Cell"
@@ -665,11 +659,11 @@ Model {
   Created		  "Fri Feb 08 15:09:51 2002"
   Creator		  "fh"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "ku347"
+  LastModifiedBy	  "hwanmooy"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sat Oct 07 23:35:09 2023"
-  RTWModifiedTimeStamp	  618622359
-  ModelVersionFormat	  "%<AutoIncrement:11.16>"
+  LastModifiedDate	  "Sun Oct 08 00:48:54 2023"
+  RTWModifiedTimeStamp	  618626914
+  ModelVersionFormat	  "%<AutoIncrement:11.17>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -2058,7 +2052,7 @@ Model {
   }
   System {
     Name		    "pythonCtrl_DLC2"
-    Location		    [2552, -8, 4488, 1048]
+    Location		    [8, 8, 1948, 1108]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
     Open		    off
     PortBlocksUseCompactNotation off
@@ -2074,9 +2068,9 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "391"
+    ZoomFactor		    "392"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "5673"
+    SIDHighWatermark	    "5674"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      SubSystem
@@ -2096,9 +2090,9 @@ Model {
       }
       System {
 	Name			"CarMaker"
-	Location		[-8, -8, 2568, 1408]
+	Location		[8, 8, 1948, 1108]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
+	Open			on
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -2112,7 +2106,7 @@ Model {
 	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"175"
+	ZoomFactor		"128"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  BusSelector
@@ -2515,7 +2509,7 @@ Model {
 	  "ageUris\":[\"http://schema.mathworks.com/mf0/Connector/R2020b\"],\"version\":\"1.0\"}"
 	  System {
 	    Name		    "CM_LAST"
-	    Location		    [2552, -8, 4488, 1048]
+	    Location		    [8, 8, 1948, 1108]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    on
 	    PortBlocksUseCompactNotation off
@@ -2531,7 +2525,7 @@ Model {
 	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "100"
+	    ZoomFactor		    "125"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
@@ -16871,15 +16865,15 @@ Model {
 	  BlockType		  SubSystem
 	  Name			  "Steering"
 	  SID			  "5329"
-	  Ports			  [0, 1]
+	  Ports			  [1, 1]
 	  Position		  [95, 419, 205, 461]
 	  ZOrder		  20161
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Steering"
-	    Location		    [-8, -8, 2568, 1408]
+	    Location		    [8, 8, 1948, 1108]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-	    Open		    on
+	    Open		    off
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
 	    ExecutionDomainType	    "Deduce"
@@ -16893,8 +16887,15 @@ Model {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "175"
+	    ZoomFactor		    "128"
 	    SimulinkSubDomain	    "Simulink"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "steering"
+	      SID		      "5674"
+	      Position		      [375, 58, 405, 72]
+	      ZOrder		      423
+	    }
 	    Block {
 	      BlockType		      BusCreator
 	      Name		      "Bus\nCreator"
@@ -16940,24 +16941,6 @@ Model {
 	      SourceProductName	      "CarMaker4SL"
 	      MultithreadedSim	      "auto"
 	      xname		      "Steer.WhlTrq"
-	      xsync		      off
-	      xstime		      "Continuous"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Read CM Dict2"
-	      SID		      "5671"
-	      Ports		      [0, 1]
-	      Position		      [255, 54, 405, 76]
-	      ZOrder		      420
-	      BackgroundColor	      "orange"
-	      ShowName		      off
-	      LibraryVersion	      "1.496"
-	      SourceBlock	      "CarMaker4SL/Read CM Dict"
-	      SourceType	      "Read CarMaker Dictionary Variable(s)"
-	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      "auto"
-	      xname		      "Steer.WhlAng"
 	      xsync		      off
 	      xstime		      "Continuous"
 	    }
@@ -17906,8 +17889,8 @@ Model {
 	      DstPort		      1
 	    }
 	    Line {
-	      ZOrder		      53
-	      SrcBlock		      "Read CM Dict2"
+	      ZOrder		      54
+	      SrcBlock		      "steering"
 	      SrcPort		      1
 	      DstBlock		      "UnitConversion3"
 	      DstPort		      1
@@ -17923,13 +17906,6 @@ Model {
 	  ShowName		  off
 	}
 	Block {
-	  BlockType		  Terminator
-	  Name			  "Terminator1"
-	  SID			  "5654"
-	  Position		  [445, 180, 465, 200]
-	  ZOrder		  20164
-	}
-	Block {
 	  BlockType		  SubSystem
 	  Name			  "VehicleControl"
 	  SID			  "2196"
@@ -17940,7 +17916,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "VehicleControl"
-	    Location		    [-8, -8, 2568, 1408]
+	    Location		    [8, 8, 1948, 1108]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -17956,7 +17932,7 @@ Model {
 	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "201"
+	    ZoomFactor		    "147"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
@@ -18457,7 +18433,7 @@ Model {
 	      RequestExecContextInheritance off
 	      System {
 		Name			"CreateBus VhclCtrl"
-		Location		[2552, -8, 4488, 1048]
+		Location		[8, 8, 1948, 1108]
 		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -18689,7 +18665,7 @@ Model {
 		  SourceBlock		  "CarMaker4SL/Write CM Dict"
 		  SourceType		  "Write CarMaker Dictionary Variable(s)"
 		  SourceProductName	  "CarMaker4SL"
-		  MultithreadedSim	  auto
+		  MultithreadedSim	  "auto"
 		  xname			  "DM.Steer.Ang"
 		  xsync			  off
 		}
@@ -18704,16 +18680,16 @@ Model {
 		  SourceBlock		  "instrumentlib/TCP//IP Receive"
 		  SourceType		  "TCP/IP Receive"
 		  SourceProductBaseCode	  "IC"
-		  Host			  127.0.0.1
-		  Port			  80
-		  DataSize		  [1  2]
+		  Host			  "127.0.0.1"
+		  Port			  "80"
+		  DataSize		  "[1  2]"
 		  EnableBlockingMode	  on
-		  Timeout		  10
-		  SampleTime		  0.01
-		  DataType		  double
-		  ByteOrder		  BigEndian
+		  Timeout		  "10"
+		  SampleTime		  "0.01"
+		  DataType		  "double"
+		  ByteOrder		  "BigEndian"
 		  ASCIIFormatting	  "%f,"
-		  Terminator		  LF
+		  Terminator		  "LF"
 		}
 		Block {
 		  BlockType		  Outport
@@ -21830,11 +21806,11 @@ Model {
 	  DstPort		  2
 	}
 	Line {
-	  ZOrder		  134
+	  ZOrder		  135
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  9
-	  Points		  [10, 0; 0, 21; -89, 0; 0, 19]
-	  DstBlock		  "Terminator1"
+	  Points		  [11, 0; 0, 48; -433, 0; 0, 242]
+	  DstBlock		  "Steering"
 	  DstPort		  1
 	}
       }
