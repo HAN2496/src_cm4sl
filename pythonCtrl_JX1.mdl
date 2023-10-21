@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "11.25"
+    ComputedModelVersion    "11.26"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -19,7 +19,7 @@ Model {
     IsExportFunctionModel   0
     SimulinkSubDomainType   "Simulink"
     NumParameterArguments   0
-    NumExternalFileReferences 43
+    NumExternalFileReferences 44
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "pythonCtrl_JX1/CarMaker/CM_LAST/Read CM Dict10"
@@ -124,6 +124,12 @@ Model {
     }
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
+      Path		      "pythonCtrl_JX1/CarMaker/Steering/Read CM Dict2"
+      SID		      "5677"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "pythonCtrl_JX1/CarMaker/Steering/Read CM Dict3"
       SID		      "5335"
       Type		      "LIBRARY_BLOCK"
@@ -142,7 +148,7 @@ Model {
     }
     ExternalFileReference {
       Reference		      "CarMaker4SL/Write CM Dict"
-      Path		      "pythonCtrl_JX1/CarMaker/Steering/Write CM Dict3"
+      Path		      "pythonCtrl_JX1/CarMaker/VehicleControl/CreateBus VhclCtrl/Write CM Dict3"
       SID		      "5676"
       Type		      "LIBRARY_BLOCK"
     }
@@ -307,7 +313,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-7.0, -7.0, 1721.0, 1041.0]
+      Location		      [8.0, 8.0, 1721.0, 1041.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -332,12 +338,12 @@ Model {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1726"
-	  Extents		  [2504.0, 1220.0]
-	  ZoomFactor		  [1.3259318001586042]
-	  Offset		  [-200.74428198164719, -37.108973296571889]
-	  SceneRectInView	  [-200.74428198164719, -37.108973296571889, 1258.9888357256777, 613.40510366826152]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1667.0, 799.0]
+	  ZoomFactor		  [3.4074394148315572]
+	  Offset		  [-52.244645177648067, -7.743463892885913]
+	  SceneRectInView	  [-52.244645177648067, -7.743463892885913, 489.22366535529619, 234.48692778577183]
 	}
 	Object {
 	  $ObjectID		  6
@@ -347,19 +353,19 @@ Model {
 	  LoadSaveID		  "1740"
 	  Extents		  [2504.0, 1220.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [-267.17089747316834, 56.619982659349205]
-	  SceneRectInView	  [-267.17089747316834, 56.619982659349205, 1669.3333333333333, 813.33333333333337]
+	  Offset		  [-914.015625, -125.5]
+	  SceneRectInView	  [-914.015625, -125.5, 2504.0, 1220.0]
 	}
 	Object {
 	  $ObjectID		  7
 	  IsActive		  [0]
 	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
-	  Extents		  [2504.0, 1220.0]
-	  ZoomFactor		  [3.4685657789691282]
-	  Offset		  [-48.270217080152719, -7.743463892885913]
-	  SceneRectInView	  [-48.270217080152719, -7.743463892885913, 481.27480916030549, 234.48692778577183]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1726"
+	  Extents		  [1667.0, 799.0]
+	  ZoomFactor		  [1.3025649692541699]
+	  Offset		  [-211.14117063632523, -37.108973296571889]
+	  SceneRectInView	  [-211.14117063632523, -37.108973296571889, 1279.7826130350338, 613.40510366826152]
 	}
 	Object {
 	  $ObjectID		  8
@@ -367,13 +373,35 @@ Model {
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "2210"
-	  Extents		  [2508.0, 1284.0]
-	  ZoomFactor		  [1.3259318001586042]
-	  Offset		  [-420.26354269924627, -200.30747533349262]
-	  SceneRectInView	  [-420.26354269924627, -200.30747533349262, 1261.0, 645.58373205741623]
+	  Extents		  [1667.0, 799.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-459.93917072710406, -198.17423821292925]
+	  SceneRectInView	  [-459.93917072710406, -198.17423821292925, 1333.6, 639.2]
 	}
 	Object {
 	  $ObjectID		  9
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "5329"
+	  Extents		  [1667.0, 799.0]
+	  ZoomFactor		  [2.0]
+	  Offset		  [178.31753894453436, -39.200976835431788]
+	  SceneRectInView	  [178.31753894453436, -39.200976835431788, 833.5, 399.5]
+	}
+	Object {
+	  $ObjectID		  10
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "2196"
+	  Extents		  [1667.0, 799.0]
+	  ZoomFactor		  [1.2984637347315464]
+	  Offset		  [31.900078555636924, 261.31888101664089]
+	  SceneRectInView	  [31.900078555636924, 261.31888101664089, 1283.8248427050967, 615.3425610806072]
+	}
+	Object {
+	  $ObjectID		  11
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -382,28 +410,6 @@ Model {
 	  ZoomFactor		  [2.0]
 	  Offset		  [369.3959331503782, -195.29105402182785]
 	  SceneRectInView	  [369.3959331503782, -195.29105402182785, 1261.0, 587.0]
-	}
-	Object {
-	  $ObjectID		  10
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "5329"
-	  Extents		  [2522.0, 1174.0]
-	  ZoomFactor		  [1.75]
-	  Offset		  [15.485865279267614, -51.778129976232208]
-	  SceneRectInView	  [15.485865279267614, -51.778129976232208, 1441.1428571428571, 670.85714285714289]
-	}
-	Object {
-	  $ObjectID		  11
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2196"
-	  Extents		  [2522.0, 1174.0]
-	  ZoomFactor		  [1.9644424349087943]
-	  Offset		  [31.900078555636924, 270.17763869100804]
-	  SceneRectInView	  [31.900078555636924, 270.17763869100804, 1283.8248427050967, 597.62504573187289]
 	}
 	Object {
 	  $ObjectID		  12
@@ -606,8 +612,8 @@ Model {
 	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
 	  Floating		  [0]
 	  DockPosition		  "Left"
-	  Width			  [426]
-	  Height		  [320]
+	  Width			  [640]
+	  Height		  [480]
 	  Minimized		  "Unset"
 	}
 	Object {
@@ -619,18 +625,18 @@ Model {
 	  UserData		  ""
 	  Floating		  [0]
 	  DockPosition		  "Right"
-	  Width			  [426]
-	  Height		  [320]
+	  Width			  [640]
+	  Height		  [480]
 	  Minimized		  "Unset"
 	}
 	PropName		"DockComponentsInfo"
       }
       WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAACTAP////sAAABgAFMAaQBtAHUAb"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAABgAFMAaQBtAHUAb"
       "ABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZ"
-      "QBzAAAAAAD/////AAAAxwD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
-      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAoAA////AAAKAAAABRIAAAABAAAAAgAAAAEAAAAC/"
+      "QBzAAAAAAD/////AAAAjAD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
+      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAGqQAAA1wAAAABAAAAAgAAAAEAAAAC/"
       "AAAAAA="
       Array {
 	Type			"Cell"
@@ -649,9 +655,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "ku347"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Oct 20 23:05:26 2023"
-  RTWModifiedTimeStamp	  619743924
-  ModelVersionFormat	  "%<AutoIncrement:11.25>"
+  LastModifiedDate	  "Sat Oct 21 22:25:13 2023"
+  RTWModifiedTimeStamp	  619827893
+  ModelVersionFormat	  "%<AutoIncrement:11.26>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -2040,9 +2046,9 @@ Model {
   }
   System {
     Name		    "pythonCtrl_JX1"
-    Location		    [-7, -7, 1714, 1034]
+    Location		    [8, 8, 1729, 1049]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    off
+    Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -2056,9 +2062,9 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "347"
+    ZoomFactor		    "341"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "5676"
+    SIDHighWatermark	    "5677"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      SubSystem
@@ -2078,9 +2084,9 @@ Model {
       }
       System {
 	Name			"CarMaker"
-	Location		[-7, -7, 1714, 1034]
+	Location		[8, 8, 1729, 1049]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			on
+	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -2094,7 +2100,7 @@ Model {
 	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"133"
+	ZoomFactor		"130"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  BusSelector
@@ -2497,7 +2503,7 @@ Model {
 	  "ageUris\":[\"http://schema.mathworks.com/mf0/Connector/R2020b\"],\"version\":\"1.0\"}"
 	  System {
 	    Name		    "CM_LAST"
-	    Location		    [-7, -7, 1714, 1034]
+	    Location		    [8, 8, 1729, 1049]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    on
 	    PortBlocksUseCompactNotation off
@@ -16806,13 +16812,13 @@ Model {
 	  BlockType		  SubSystem
 	  Name			  "Steering"
 	  SID			  "5329"
-	  Ports			  [1, 1]
+	  Ports			  [0, 1]
 	  Position		  [95, 419, 205, 461]
 	  ZOrder		  20161
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Steering"
-	    Location		    [-8, -8, 2568, 1408]
+	    Location		    [8, 8, 1729, 1049]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -16828,15 +16834,8 @@ Model {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "175"
+	    ZoomFactor		    "200"
 	    SimulinkSubDomain	    "Simulink"
-	    Block {
-	      BlockType		      Inport
-	      Name		      "steering"
-	      SID		      "5674"
-	      Position		      [375, 58, 405, 72]
-	      ZOrder		      423
-	    }
 	    Block {
 	      BlockType		      BusCreator
 	      Name		      "Bus\nCreator"
@@ -16882,6 +16881,24 @@ Model {
 	      SourceProductName	      "CarMaker4SL"
 	      MultithreadedSim	      "auto"
 	      xname		      "Steer.WhlTrq"
+	      xsync		      off
+	      xstime		      "Continuous"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Read CM Dict2"
+	      SID		      "5677"
+	      Ports		      [0, 1]
+	      Position		      [255, 54, 405, 76]
+	      ZOrder		      20160
+	      BackgroundColor	      "orange"
+	      ShowName		      off
+	      LibraryVersion	      "1.496"
+	      SourceBlock	      "CarMaker4SL/Read CM Dict"
+	      SourceType	      "Read CarMaker Dictionary Variable(s)"
+	      SourceProductName	      "CarMaker4SL"
+	      MultithreadedSim	      "auto"
+	      xname		      "Steer.WhlAng"
 	      xsync		      off
 	      xstime		      "Continuous"
 	    }
@@ -17709,23 +17726,6 @@ Model {
 	      }
 	    }
 	    Block {
-	      BlockType		      Reference
-	      Name		      "Write CM Dict3"
-	      SID		      "5676"
-	      Ports		      [1]
-	      Position		      [485, -17, 610, 7]
-	      ZOrder		      20159
-	      BackgroundColor	      "orange"
-	      ShowName		      off
-	      LibraryVersion	      "1.496"
-	      SourceBlock	      "CarMaker4SL/Write CM Dict"
-	      SourceType	      "Write CarMaker Dictionary Variable(s)"
-	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      "auto"
-	      xname		      "DM.Steer.Ang"
-	      xsync		      off
-	    }
-	    Block {
 	      BlockType		      Outport
 	      Name		      "Steering_Sensor"
 	      SID		      "5368"
@@ -17847,21 +17847,11 @@ Model {
 	      DstPort		      1
 	    }
 	    Line {
-	      ZOrder		      54
-	      SrcBlock		      "steering"
+	      ZOrder		      58
+	      SrcBlock		      "Read CM Dict2"
 	      SrcPort		      1
-	      Points		      [19, 0]
-	      Branch {
-		ZOrder			56
-		Points			[0, -70]
-		DstBlock		"Write CM Dict3"
-		DstPort			1
-	      }
-	      Branch {
-		ZOrder			55
-		DstBlock		"UnitConversion3"
-		DstPort			1
-	      }
+	      DstBlock		      "UnitConversion3"
+	      DstPort		      1
 	    }
 	  }
 	}
@@ -17877,14 +17867,14 @@ Model {
 	  BlockType		  SubSystem
 	  Name			  "VehicleControl"
 	  SID			  "2196"
-	  Ports			  [2, 9]
-	  Position		  [370, 28, 495, 152]
+	  Ports			  [2, 8]
+	  Position		  [370, 30, 495, 155]
 	  ZOrder		  -7
 	  BackgroundColor	  "green"
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "VehicleControl"
-	    Location		    [-8, -8, 2568, 1408]
+	    Location		    [8, 8, 1729, 1049]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -17900,7 +17890,7 @@ Model {
 	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "196"
+	    ZoomFactor		    "130"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
@@ -18395,13 +18385,13 @@ Model {
 	      BlockType		      SubSystem
 	      Name		      "CreateBus VhclCtrl"
 	      SID		      "2210"
-	      Ports		      [1, 3]
-	      Position		      [225, 350, 380, 400]
+	      Ports		      [1, 2]
+	      Position		      [225, 352, 380, 403]
 	      ZOrder		      -6
 	      RequestExecContextInheritance off
 	      System {
 		Name			"CreateBus VhclCtrl"
-		Location		[58, 108, 1782, 1192]
+		Location		[8, 8, 1729, 1049]
 		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -18417,7 +18407,7 @@ Model {
 		TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
 		TiledPageScale		1
 		ShowPageBoundaries	off
-		ZoomFactor		"133"
+		ZoomFactor		"125"
 		SimulinkSubDomain	"Simulink"
 		Block {
 		  BlockType		  Inport
@@ -18593,6 +18583,23 @@ Model {
 		}
 		Block {
 		  BlockType		  Reference
+		  Name			  "Write CM Dict3"
+		  SID			  "5676"
+		  Ports			  [1]
+		  Position		  [-190, -12, -65, 12]
+		  ZOrder		  20198
+		  BackgroundColor	  "orange"
+		  ShowName		  off
+		  LibraryVersion	  "1.496"
+		  SourceBlock		  "CarMaker4SL/Write CM Dict"
+		  SourceType		  "Write CarMaker Dictionary Variable(s)"
+		  SourceProductName	  "CarMaker4SL"
+		  MultithreadedSim	  "auto"
+		  xname			  "DM.Steer.Ang"
+		  xsync			  off
+		}
+		Block {
+		  BlockType		  Reference
 		  Name			  "tcpiprcv"
 		  SID			  "5635"
 		  Ports			  [0, 1]
@@ -18627,14 +18634,6 @@ Model {
 		  Position		  [475, -38, 505, -22]
 		  ZOrder		  20196
 		  Port			  "2"
-		}
-		Block {
-		  BlockType		  Outport
-		  Name			  "steering"
-		  SID			  "5641"
-		  Position		  [-160, -8, -130, 8]
-		  ZOrder		  20197
-		  Port			  "3"
 		}
 		Line {
 		  ZOrder		  1
@@ -18912,13 +18911,6 @@ Model {
 		  DstPort		  29
 		}
 		Line {
-		  ZOrder		  40
-		  SrcBlock		  "Integrator"
-		  SrcPort		  1
-		  DstBlock		  "steering"
-		  DstPort		  1
-		}
-		Line {
 		  ZOrder		  33
 		  SrcBlock		  "Demux1"
 		  SrcPort		  2
@@ -18944,6 +18936,13 @@ Model {
 		  SrcBlock		  "Gain"
 		  SrcPort		  1
 		  DstBlock		  "Integrator"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  151
+		  SrcBlock		  "Integrator"
+		  SrcPort		  1
+		  DstBlock		  "Write CM Dict3"
 		  DstPort		  1
 		}
 	      }
@@ -19443,19 +19442,10 @@ Model {
 	      ZOrder		      1
 	      Port		      "8"
 	    }
-	    Block {
-	      BlockType		      Outport
-	      Name		      "steering"
-	      SID		      "5642"
-	      Position		      [830, 523, 860, 537]
-	      ZOrder		      2
-	      Port		      "9"
-	    }
 	    Line {
 	      ZOrder		      1
 	      SrcBlock		      "CreateBus VhclCtrl"
 	      SrcPort		      1
-	      Points		      [76, 0; 0, 5]
 	      DstBlock		      "VehicleControlUpd"
 	      DstPort		      2
 	    }
@@ -19463,7 +19453,7 @@ Model {
 	      ZOrder		      2
 	      SrcBlock		      "VehicleControl"
 	      SrcPort		      2
-	      Points		      [13, 0; 0, 10]
+	      Points		      [13, 0; 0, 15]
 	      DstBlock		      "CreateBus VhclCtrl"
 	      DstPort		      1
 	    }
@@ -19594,16 +19584,8 @@ Model {
 	      ZOrder		      20
 	      SrcBlock		      "CreateBus VhclCtrl"
 	      SrcPort		      2
-	      Points		      [17, 0; 0, 125; 269, 0; 0, -5]
+	      Points		      [4, 0; 0, 105]
 	      DstBlock		      "connect"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      21
-	      SrcBlock		      "CreateBus VhclCtrl"
-	      SrcPort		      3
-	      Points		      [12, 0; 0, 118; 314, 0; 0, 22]
-	      DstBlock		      "steering"
 	      DstPort		      1
 	    }
 	    Annotation {
@@ -21529,7 +21511,7 @@ Model {
 	  ZOrder		  1
 	  SrcBlock		  "DrivMan"
 	  SrcPort		  2
-	  Points		  [7, 0; 0, 5]
+	  Points		  [7, 0; 0, 10]
 	  DstBlock		  "VehicleControl"
 	  DstPort		  2
 	}
@@ -21537,7 +21519,7 @@ Model {
 	  ZOrder		  2
 	  SrcBlock		  "DrivMan"
 	  SrcPort		  1
-	  Points		  [13, 0; 0, 5]
+	  Points		  [13, 0; 0, 10]
 	  DstBlock		  "VehicleControl"
 	  DstPort		  1
 	}
@@ -21580,7 +21562,6 @@ Model {
 	  ZOrder		  8
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  1
-	  Points		  [10, 0; 0, 10]
 	  DstBlock		  "IPG Vehicle"
 	  DstPort		  1
 	}
@@ -21588,7 +21569,6 @@ Model {
 	  ZOrder		  9
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  3
-	  Points		  [19, 0; 0, 10]
 	  DstBlock		  "IPG Vehicle"
 	  DstPort		  3
 	}
@@ -21596,7 +21576,6 @@ Model {
 	  ZOrder		  10
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  4
-	  Points		  [15, 0; 0, 10]
 	  DstBlock		  "IPG Vehicle"
 	  DstPort		  4
 	}
@@ -21604,7 +21583,6 @@ Model {
 	  ZOrder		  11
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  5
-	  Points		  [15, 0; 0, 10]
 	  DstBlock		  "IPG Vehicle"
 	  DstPort		  5
 	}
@@ -21612,7 +21590,6 @@ Model {
 	  ZOrder		  12
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  6
-	  Points		  [15, 0; 0, 10]
 	  DstBlock		  "IPG Vehicle"
 	  DstPort		  6
 	}
@@ -21620,7 +21597,6 @@ Model {
 	  ZOrder		  13
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  7
-	  Points		  [19, 0; 0, 10]
 	  DstBlock		  "IPG Vehicle"
 	  DstPort		  7
 	}
@@ -21628,7 +21604,6 @@ Model {
 	  ZOrder		  14
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  2
-	  Points		  [3, 0; 0, 10]
 	  DstBlock		  "IPG Vehicle"
 	  DstPort		  2
 	}
@@ -21688,17 +21663,9 @@ Model {
 	  ZOrder		  132
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  8
-	  Points		  [27, 0; 0, 29; 223, 0]
+	  Points		  [15, 0; 0, 36; 235, 0]
 	  DstBlock		  "CM_LAST"
 	  DstPort		  2
-	}
-	Line {
-	  ZOrder		  135
-	  SrcBlock		  "VehicleControl"
-	  SrcPort		  9
-	  Points		  [11, 0; 0, 48; -433, 0; 0, 242]
-	  DstBlock		  "Steering"
-	  DstPort		  1
 	}
       }
     }
