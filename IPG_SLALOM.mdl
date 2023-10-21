@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "11.16"
+    ComputedModelVersion    "11.15"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -19,107 +19,83 @@ Model {
     IsExportFunctionModel   0
     SimulinkSubDomainType   "Simulink"
     NumParameterArguments   0
-    NumExternalFileReferences 20
+    NumExternalFileReferences 16
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "IPG_DLC/CarMaker/CM_LAST/Read CM Dict1"
-      SID		      "2311"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "CarMaker4SL/Read CM Dict"
-      Path		      "IPG_DLC/CarMaker/CM_LAST/Read CM Dict10"
-      SID		      "2312"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "CarMaker4SL/Read CM Dict"
-      Path		      "IPG_DLC/CarMaker/CM_LAST/Read CM Dict11"
-      SID		      "2313"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "CarMaker4SL/Read CM Dict"
-      Path		      "IPG_DLC/CarMaker/CM_LAST/Read CM Dict12"
-      SID		      "2314"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "CarMaker4SL/Read CM Dict"
-      Path		      "IPG_DLC/CarMaker/CM_LAST/Read CM Dict13"
-      SID		      "2315"
+      SID		      "2279"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "IPG_DLC/CarMaker/CM_LAST/Read CM Dict2"
-      SID		      "2316"
+      SID		      "2280"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "IPG_DLC/CarMaker/CM_LAST/Read CM Dict3"
-      SID		      "2317"
+      SID		      "2281"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "IPG_DLC/CarMaker/CM_LAST/Read CM Dict4"
-      SID		      "2318"
+      SID		      "2282"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "IPG_DLC/CarMaker/CM_LAST/Read CM Dict5"
-      SID		      "2319"
+      SID		      "2283"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "IPG_DLC/CarMaker/CM_LAST/Read CM Dict6"
-      SID		      "2320"
+      SID		      "2284"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "IPG_DLC/CarMaker/CM_LAST/Read CM Dict7"
-      SID		      "2321"
+      SID		      "2301"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "IPG_DLC/CarMaker/CM_LAST/Read CM Dict8"
-      SID		      "2322"
+      SID		      "2285"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "IPG_DLC/CarMaker/CM_LAST/Read CM Dict9"
-      SID		      "2323"
+      SID		      "2306"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "IPG_DLC/CarMaker/CM_LAST/acc"
-      SID		      "2324"
+      SID		      "2287"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "IPG_DLC/CarMaker/CM_LAST/ang"
-      SID		      "2325"
+      SID		      "2288"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "instrumentlib/TCP//IP Send"
       Path		      "IPG_DLC/CarMaker/CM_LAST/tcpipsend"
-      SID		      "2326"
+      SID		      "2289"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "IPG_DLC/CarMaker/CM_LAST/vel"
-      SID		      "2327"
+      SID		      "2290"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
@@ -195,25 +171,14 @@ Model {
 	  IsActive		  [1]
 	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1726"
+	  LoadSaveID		  "1740"
 	  Extents		  [1667.0, 799.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-390.5, -296.9375]
-	  SceneRectInView	  [-390.5, -296.9375, 1667.0, 799.0]
+	  ZoomFactor		  [0.82722701149425271]
+	  Offset		  [-649.59877740990021, 7.346938775510182]
+	  SceneRectInView	  [-649.59877740990021, 7.346938775510182, 2015.1663048198006, 965.8775510204083]
 	}
 	Object {
 	  $ObjectID		  6
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1740"
-	  Extents		  [1667.0, 799.0]
-	  ZoomFactor		  [0.8]
-	  Offset		  [-422.17481591040644, -44.888804457953484]
-	  SceneRectInView	  [-422.17481591040644, -44.888804457953484, 2083.75, 998.75]
-	}
-	Object {
-	  $ObjectID		  7
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -224,7 +189,7 @@ Model {
 	  SceneRectInView	  [-520.39441330293528, -64.549175473760954, 1276.5426531364828, 611.85217747813419]
 	}
 	Object {
-	  $ObjectID		  8
+	  $ObjectID		  7
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -235,7 +200,7 @@ Model {
 	  SceneRectInView	  [-374.625, -92.5, 1667.0, 799.0]
 	}
 	Object {
-	  $ObjectID		  9
+	  $ObjectID		  8
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkTopLevel"
@@ -244,6 +209,17 @@ Model {
 	  ZoomFactor		  [3.7818906814528024]
 	  Offset		  [-28.025222065845327, 3.8650058529631508]
 	  SceneRectInView	  [-28.025222065845327, 3.8650058529631508, 440.78481913169071, 211.2699882940737]
+	}
+	Object {
+	  $ObjectID		  9
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1726"
+	  Extents		  [1667.0, 799.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-390.5, -296.9375]
+	  SceneRectInView	  [-390.5, -296.9375, 1667.0, 799.0]
 	}
 	Object {
 	  $ObjectID		  10
@@ -329,19 +305,6 @@ Model {
 	Dimension		2
 	Object {
 	  $ObjectID		  17
-	  Type			  "Simulink:Editor:ReferencedFiles"
-	  ID			  "Referenced Files"
-	  Visible		  [0]
-	  CreateCallback	  ""
-	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
-	  Floating		  [0]
-	  DockPosition		  "Left"
-	  Width			  [640]
-	  Height		  [480]
-	  Minimized		  "Unset"
-	}
-	Object {
-	  $ObjectID		  18
 	  Type			  "GLUE2:PropertyInspector"
 	  ID			  "Property Inspector"
 	  Visible		  [0]
@@ -349,6 +312,19 @@ Model {
 	  UserData		  ""
 	  Floating		  [0]
 	  DockPosition		  "Right"
+	  Width			  [640]
+	  Height		  [480]
+	  Minimized		  "Unset"
+	}
+	Object {
+	  $ObjectID		  18
+	  Type			  "Simulink:Editor:ReferencedFiles"
+	  ID			  "Referenced Files"
+	  Visible		  [0]
+	  CreateCallback	  ""
+	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
+	  Floating		  [0]
+	  DockPosition		  "Left"
 	  Width			  [640]
 	  Height		  [480]
 	  Minimized		  "Unset"
@@ -379,9 +355,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "ku347"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sat Oct 14 15:44:22 2023"
-  RTWModifiedTimeStamp	  619199059
-  ModelVersionFormat	  "%<AutoIncrement:11.16>"
+  LastModifiedDate	  "Sat Oct 14 02:21:51 2023"
+  RTWModifiedTimeStamp	  619150886
+  ModelVersionFormat	  "%<AutoIncrement:11.15>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -1467,7 +1443,7 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "378"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "2327"
+    SIDHighWatermark	    "2307"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      SubSystem
@@ -1489,7 +1465,7 @@ Model {
 	Name			"CarMaker"
 	Location		[58, 108, 1779, 1149]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			on
+	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -1872,7 +1848,7 @@ Model {
 	    Name		    "CM_LAST"
 	    Location		    [58, 108, 1779, 1149]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-	    Open		    off
+	    Open		    on
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
 	    ExecutionDomainType	    "Deduce"
@@ -1886,7 +1862,7 @@ Model {
 	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "80"
+	    ZoomFactor		    "83"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
@@ -1899,7 +1875,7 @@ Model {
 	      BlockType		      Inport
 	      Name		      "Connect"
 	      SID		      "2275"
-	      Position		      [200, 193, 230, 207]
+	      Position		      [265, 218, 295, 232]
 	      ZOrder		      437
 	      Port		      "2"
 	    }
@@ -1920,10 +1896,10 @@ Model {
 	    Block {
 	      BlockType		      Display
 	      Name		      "Display"
-	      SID		      "2309"
+	      SID		      "2276"
 	      Ports		      [1]
-	      Position		      [445, 535, 540, 575]
-	      ZOrder		      20224
+	      Position		      [510, 560, 605, 600]
+	      ZOrder		      435
 	      Decimation	      "1"
 	    }
 	    Block {
@@ -1943,21 +1919,21 @@ Model {
 	    Block {
 	      BlockType		      Mux
 	      Name		      "Mux"
-	      SID		      "2310"
-	      Ports		      [17, 1]
-	      Position		      [250, 175, 265, 1025]
-	      ZOrder		      20225
+	      SID		      "2277"
+	      Ports		      [13, 1]
+	      Position		      [315, 204, 330, 846]
+	      ZOrder		      436
 	      NameLocation	      "right"
-	      Inputs		      "17"
+	      Inputs		      "13"
 	      DisplayOption	      "bar"
 	    }
 	    Block {
 	      BlockType		      Reference
 	      Name		      "Read CM Dict1"
-	      SID		      "2311"
+	      SID		      "2279"
 	      Ports		      [0, 1]
-	      Position		      [60, 640, 180, 660]
-	      ZOrder		      20231
+	      Position		      [125, 665, 245, 685]
+	      ZOrder		      443
 	      BackgroundColor	      "orange"
 	      LibraryVersion	      "1.496"
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
@@ -1970,79 +1946,11 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Reference
-	      Name		      "Read CM Dict10"
-	      SID		      "2312"
-	      Ports		      [0, 1]
-	      Position		      [60, 840, 180, 860]
-	      ZOrder		      20239
-	      BackgroundColor	      "orange"
-	      LibraryVersion	      "1.496"
-	      SourceBlock	      "CarMaker4SL/Read CM Dict"
-	      SourceType	      "Read CarMaker Dictionary Variable(s)"
-	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      "auto"
-	      xname		      "Car.CRL.rz"
-	      xsync		      off
-	      xstime		      "Inherited"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Read CM Dict11"
-	      SID		      "2313"
-	      Ports		      [0, 1]
-	      Position		      [60, 890, 180, 910]
-	      ZOrder		      20240
-	      BackgroundColor	      "orange"
-	      LibraryVersion	      "1.496"
-	      SourceBlock	      "CarMaker4SL/Read CM Dict"
-	      SourceType	      "Read CarMaker Dictionary Variable(s)"
-	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      "auto"
-	      xname		      "Car.CRR.rz"
-	      xsync		      off
-	      xstime		      "Inherited"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Read CM Dict12"
-	      SID		      "2314"
-	      Ports		      [0, 1]
-	      Position		      [60, 940, 180, 960]
-	      ZOrder		      20241
-	      BackgroundColor	      "orange"
-	      LibraryVersion	      "1.496"
-	      SourceBlock	      "CarMaker4SL/Read CM Dict"
-	      SourceType	      "Read CarMaker Dictionary Variable(s)"
-	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      "auto"
-	      xname		      "Car.CFL.rz"
-	      xsync		      off
-	      xstime		      "Inherited"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Read CM Dict13"
-	      SID		      "2315"
-	      Ports		      [0, 1]
-	      Position		      [60, 990, 180, 1010]
-	      ZOrder		      20242
-	      BackgroundColor	      "orange"
-	      LibraryVersion	      "1.496"
-	      SourceBlock	      "CarMaker4SL/Read CM Dict"
-	      SourceType	      "Read CarMaker Dictionary Variable(s)"
-	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      "auto"
-	      xname		      "Car.CFR.rz"
-	      xsync		      off
-	      xstime		      "Inherited"
-	    }
-	    Block {
-	      BlockType		      Reference
 	      Name		      "Read CM Dict2"
-	      SID		      "2316"
+	      SID		      "2280"
 	      Ports		      [0, 1]
-	      Position		      [60, 690, 180, 710]
-	      ZOrder		      20232
+	      Position		      [125, 715, 245, 735]
+	      ZOrder		      444
 	      BackgroundColor	      "orange"
 	      LibraryVersion	      "1.496"
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
@@ -2056,10 +1964,10 @@ Model {
 	    Block {
 	      BlockType		      Reference
 	      Name		      "Read CM Dict3"
-	      SID		      "2317"
+	      SID		      "2281"
 	      Ports		      [0, 1]
-	      Position		      [160, 240, 230, 260]
-	      ZOrder		      20226
+	      Position		      [225, 265, 295, 285]
+	      ZOrder		      438
 	      BackgroundColor	      "orange"
 	      LibraryVersion	      "1.496"
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
@@ -2073,10 +1981,10 @@ Model {
 	    Block {
 	      BlockType		      Reference
 	      Name		      "Read CM Dict4"
-	      SID		      "2318"
+	      SID		      "2282"
 	      Ports		      [0, 1]
-	      Position		      [160, 390, 230, 410]
-	      ZOrder		      20230
+	      Position		      [225, 415, 295, 435]
+	      ZOrder		      442
 	      BackgroundColor	      "orange"
 	      LibraryVersion	      "1.496"
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
@@ -2090,10 +1998,10 @@ Model {
 	    Block {
 	      BlockType		      Reference
 	      Name		      "Read CM Dict5"
-	      SID		      "2319"
+	      SID		      "2283"
 	      Ports		      [0, 1]
-	      Position		      [160, 340, 230, 360]
-	      ZOrder		      20228
+	      Position		      [225, 365, 295, 385]
+	      ZOrder		      440
 	      BackgroundColor	      "orange"
 	      LibraryVersion	      "1.496"
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
@@ -2107,10 +2015,10 @@ Model {
 	    Block {
 	      BlockType		      Reference
 	      Name		      "Read CM Dict6"
-	      SID		      "2320"
+	      SID		      "2284"
 	      Ports		      [0, 1]
-	      Position		      [160, 440, 230, 460]
-	      ZOrder		      20229
+	      Position		      [225, 465, 295, 485]
+	      ZOrder		      441
 	      BackgroundColor	      "orange"
 	      LibraryVersion	      "1.496"
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
@@ -2124,10 +2032,10 @@ Model {
 	    Block {
 	      BlockType		      Reference
 	      Name		      "Read CM Dict7"
-	      SID		      "2321"
+	      SID		      "2301"
 	      Ports		      [0, 1]
-	      Position		      [60, 740, 180, 760]
-	      ZOrder		      20236
+	      Position		      [125, 765, 245, 785]
+	      ZOrder		      451
 	      BackgroundColor	      "orange"
 	      LibraryVersion	      "1.496"
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
@@ -2141,10 +2049,10 @@ Model {
 	    Block {
 	      BlockType		      Reference
 	      Name		      "Read CM Dict8"
-	      SID		      "2322"
+	      SID		      "2285"
 	      Ports		      [0, 1]
-	      Position		      [160, 290, 230, 310]
-	      ZOrder		      20227
+	      Position		      [225, 315, 295, 335]
+	      ZOrder		      439
 	      BackgroundColor	      "orange"
 	      LibraryVersion	      "1.496"
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
@@ -2158,10 +2066,10 @@ Model {
 	    Block {
 	      BlockType		      Reference
 	      Name		      "Read CM Dict9"
-	      SID		      "2323"
+	      SID		      "2306"
 	      Ports		      [0, 1]
-	      Position		      [60, 790, 180, 810]
-	      ZOrder		      20237
+	      Position		      [125, 815, 245, 835]
+	      ZOrder		      452
 	      BackgroundColor	      "orange"
 	      LibraryVersion	      "1.496"
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
@@ -2175,10 +2083,10 @@ Model {
 	    Block {
 	      BlockType		      Reference
 	      Name		      "acc"
-	      SID		      "2324"
+	      SID		      "2287"
 	      Ports		      [0, 1]
-	      Position		      [60, 590, 180, 610]
-	      ZOrder		      20235
+	      Position		      [125, 615, 245, 635]
+	      ZOrder		      447
 	      BackgroundColor	      "orange"
 	      LibraryVersion	      "1.496"
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
@@ -2192,10 +2100,10 @@ Model {
 	    Block {
 	      BlockType		      Reference
 	      Name		      "ang"
-	      SID		      "2325"
+	      SID		      "2288"
 	      Ports		      [0, 1]
-	      Position		      [60, 490, 180, 510]
-	      ZOrder		      20233
+	      Position		      [125, 515, 245, 535]
+	      ZOrder		      445
 	      BackgroundColor	      "orange"
 	      LibraryVersion	      "1.496"
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
@@ -2209,10 +2117,10 @@ Model {
 	    Block {
 	      BlockType		      Reference
 	      Name		      "tcpipsend"
-	      SID		      "2326"
+	      SID		      "2289"
 	      Ports		      [1]
-	      Position		      [445, 422, 575, 478]
-	      ZOrder		      20223
+	      Position		      [510, 447, 640, 503]
+	      ZOrder		      434
 	      LibraryVersion	      "1.1"
 	      SourceBlock	      "instrumentlib/TCP//IP Send"
 	      SourceType	      "TCP/IP Send"
@@ -2227,10 +2135,10 @@ Model {
 	    Block {
 	      BlockType		      Reference
 	      Name		      "vel"
-	      SID		      "2327"
+	      SID		      "2290"
 	      Ports		      [0, 1]
-	      Position		      [60, 540, 180, 560]
-	      ZOrder		      20234
+	      Position		      [125, 565, 245, 585]
+	      ZOrder		      446
 	      BackgroundColor	      "orange"
 	      LibraryVersion	      "1.496"
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
@@ -2270,136 +2178,109 @@ Model {
 	      DstPort		      1
 	    }
 	    Line {
-	      ZOrder		      86
-	      SrcBlock		      "acc"
-	      SrcPort		      1
-	      DstBlock		      "Mux"
-	      DstPort		      9
-	    }
-	    Line {
-	      ZOrder		      87
-	      SrcBlock		      "Read CM Dict7"
-	      SrcPort		      1
-	      DstBlock		      "Mux"
-	      DstPort		      12
-	    }
-	    Line {
-	      ZOrder		      88
-	      SrcBlock		      "Read CM Dict12"
-	      SrcPort		      1
-	      DstBlock		      "Mux"
-	      DstPort		      16
-	    }
-	    Line {
-	      ZOrder		      89
-	      SrcBlock		      "Read CM Dict10"
-	      SrcPort		      1
-	      DstBlock		      "Mux"
-	      DstPort		      14
-	    }
-	    Line {
-	      ZOrder		      92
-	      SrcBlock		      "Mux"
-	      SrcPort		      1
-	      Points		      [26, 0; 0, -45]
-	      Branch {
-		ZOrder			91
-		Points			[0, -105]
-		DstBlock		"tcpipsend"
-		DstPort			1
-	      }
-	      Branch {
-		ZOrder			90
-		DstBlock		"Display"
-		DstPort			1
-	      }
-	    }
-	    Line {
-	      ZOrder		      93
+	      ZOrder		      4
 	      SrcBlock		      "Read CM Dict5"
 	      SrcPort		      1
 	      DstBlock		      "Mux"
 	      DstPort		      4
 	    }
 	    Line {
-	      ZOrder		      94
-	      SrcBlock		      "Read CM Dict4"
-	      SrcPort		      1
-	      DstBlock		      "Mux"
-	      DstPort		      5
-	    }
-	    Line {
-	      ZOrder		      95
-	      SrcBlock		      "Read CM Dict8"
-	      SrcPort		      1
-	      DstBlock		      "Mux"
-	      DstPort		      3
-	    }
-	    Line {
-	      ZOrder		      96
-	      SrcBlock		      "Read CM Dict2"
-	      SrcPort		      1
-	      DstBlock		      "Mux"
-	      DstPort		      11
-	    }
-	    Line {
-	      ZOrder		      106
-	      SrcBlock		      "Connect"
-	      SrcPort		      1
-	      DstBlock		      "Mux"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      98
-	      SrcBlock		      "ang"
-	      SrcPort		      1
-	      DstBlock		      "Mux"
-	      DstPort		      7
-	    }
-	    Line {
-	      ZOrder		      99
-	      SrcBlock		      "vel"
-	      SrcPort		      1
-	      DstBlock		      "Mux"
-	      DstPort		      8
-	    }
-	    Line {
-	      ZOrder		      100
-	      SrcBlock		      "Read CM Dict3"
-	      SrcPort		      1
-	      DstBlock		      "Mux"
-	      DstPort		      2
-	    }
-	    Line {
-	      ZOrder		      101
-	      SrcBlock		      "Read CM Dict13"
-	      SrcPort		      1
-	      DstBlock		      "Mux"
-	      DstPort		      17
-	    }
-	    Line {
-	      ZOrder		      102
-	      SrcBlock		      "Read CM Dict11"
-	      SrcPort		      1
-	      DstBlock		      "Mux"
-	      DstPort		      15
-	    }
-	    Line {
-	      ZOrder		      103
+	      ZOrder		      5
 	      SrcBlock		      "Read CM Dict1"
 	      SrcPort		      1
 	      DstBlock		      "Mux"
 	      DstPort		      10
 	    }
 	    Line {
-	      ZOrder		      104
+	      ZOrder		      7
 	      SrcBlock		      "Read CM Dict6"
 	      SrcPort		      1
 	      DstBlock		      "Mux"
 	      DstPort		      6
 	    }
 	    Line {
-	      ZOrder		      105
+	      ZOrder		      8
+	      SrcBlock		      "Connect"
+	      SrcPort		      1
+	      DstBlock		      "Mux"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Read CM Dict3"
+	      SrcPort		      1
+	      DstBlock		      "Mux"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Read CM Dict8"
+	      SrcPort		      1
+	      DstBlock		      "Mux"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      11
+	      SrcBlock		      "Read CM Dict2"
+	      SrcPort		      1
+	      DstBlock		      "Mux"
+	      DstPort		      11
+	    }
+	    Line {
+	      ZOrder		      14
+	      SrcBlock		      "ang"
+	      SrcPort		      1
+	      DstBlock		      "Mux"
+	      DstPort		      7
+	    }
+	    Line {
+	      ZOrder		      15
+	      SrcBlock		      "Read CM Dict4"
+	      SrcPort		      1
+	      DstBlock		      "Mux"
+	      DstPort		      5
+	    }
+	    Line {
+	      ZOrder		      18
+	      SrcBlock		      "acc"
+	      SrcPort		      1
+	      DstBlock		      "Mux"
+	      DstPort		      9
+	    }
+	    Line {
+	      ZOrder		      21
+	      SrcBlock		      "Mux"
+	      SrcPort		      1
+	      Points		      [26, 0]
+	      Branch {
+		ZOrder			65
+		Points			[0, 55]
+		DstBlock		"Display"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			57
+		Points			[0, -50]
+		DstBlock		"tcpipsend"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      ZOrder		      24
+	      SrcBlock		      "vel"
+	      SrcPort		      1
+	      DstBlock		      "Mux"
+	      DstPort		      8
+	    }
+	    Line {
+	      ZOrder		      46
+	      SrcBlock		      "Read CM Dict7"
+	      SrcPort		      1
+	      DstBlock		      "Mux"
+	      DstPort		      12
+	    }
+	    Line {
+	      ZOrder		      64
 	      SrcBlock		      "Read CM Dict9"
 	      SrcPort		      1
 	      DstBlock		      "Mux"
@@ -17901,7 +17782,7 @@ Model {
 	  ZOrder		  15
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  8
-	  Points		  [0, 29; 253, 0; 0, -65]
+	  Points		  [0, 31; 253, 0; 0, -67]
 	  DstBlock		  "CM_LAST"
 	  DstPort		  2
 	}
