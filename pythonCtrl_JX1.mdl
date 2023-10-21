@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "11.26"
+    ComputedModelVersion    "11.27"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -338,12 +338,12 @@ Model {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "2210"
 	  Extents		  [1667.0, 799.0]
-	  ZoomFactor		  [3.4074394148315572]
-	  Offset		  [-52.244645177648067, -7.743463892885913]
-	  SceneRectInView	  [-52.244645177648067, -7.743463892885913, 489.22366535529619, 234.48692778577183]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-459.93917072710406, -198.17423821292925]
+	  SceneRectInView	  [-459.93917072710406, -198.17423821292925, 1333.6, 639.2]
 	}
 	Object {
 	  $ObjectID		  6
@@ -360,23 +360,23 @@ Model {
 	  $ObjectID		  7
 	  IsActive		  [0]
 	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1726"
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
 	  Extents		  [1667.0, 799.0]
-	  ZoomFactor		  [1.3025649692541699]
-	  Offset		  [-211.14117063632523, -37.108973296571889]
-	  SceneRectInView	  [-211.14117063632523, -37.108973296571889, 1279.7826130350338, 613.40510366826152]
+	  ZoomFactor		  [3.4074394148315572]
+	  Offset		  [-52.244645177648067, -7.743463892885913]
+	  SceneRectInView	  [-52.244645177648067, -7.743463892885913, 489.22366535529619, 234.48692778577183]
 	}
 	Object {
 	  $ObjectID		  8
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2210"
+	  LoadSaveID		  "1726"
 	  Extents		  [1667.0, 799.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [-459.93917072710406, -198.17423821292925]
-	  SceneRectInView	  [-459.93917072710406, -198.17423821292925, 1333.6, 639.2]
+	  ZoomFactor		  [1.3025649692541699]
+	  Offset		  [-211.14117063632523, -37.108973296571889]
+	  SceneRectInView	  [-211.14117063632523, -37.108973296571889, 1279.7826130350338, 613.40510366826152]
 	}
 	Object {
 	  $ObjectID		  9
@@ -655,9 +655,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "ku347"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sat Oct 21 22:25:13 2023"
-  RTWModifiedTimeStamp	  619827893
-  ModelVersionFormat	  "%<AutoIncrement:11.26>"
+  LastModifiedDate	  "Sat Oct 21 22:46:36 2023"
+  RTWModifiedTimeStamp	  619829193
+  ModelVersionFormat	  "%<AutoIncrement:11.27>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -2048,7 +2048,7 @@ Model {
     Name		    "pythonCtrl_JX1"
     Location		    [8, 8, 1729, 1049]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    on
+    Open		    off
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -18393,7 +18393,7 @@ Model {
 		Name			"CreateBus VhclCtrl"
 		Location		[8, 8, 1729, 1049]
 		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-		Open			off
+		Open			on
 		PortBlocksUseCompactNotation off
 		SetExecutionDomain	off
 		ExecutionDomainType	"Deduce"
@@ -18571,7 +18571,7 @@ Model {
 		  SID			  "5632"
 		  Position		  [-350, -15, -320, 15]
 		  ZOrder		  20194
-		  Gain			  "10"
+		  Gain			  "15"
 		}
 		Block {
 		  BlockType		  Integrator
