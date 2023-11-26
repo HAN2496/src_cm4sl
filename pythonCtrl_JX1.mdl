@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "11.28"
+    ComputedModelVersion    "11.29"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -363,10 +363,10 @@ Model {
 	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "1740"
-	  Extents		  [2522.0, 1174.0]
-	  ZoomFactor		  [1.1301775147928992]
-	  Offset		  [-777.76955170157089, 11.612565445026121]
-	  SceneRectInView	  [-777.76955170157089, 11.612565445026121, 2231.5078534031418, 1038.7748691099478]
+	  Extents		  [2522.0, 1176.0]
+	  ZoomFactor		  [2.5]
+	  Offset		  [-244.82400196335061, 603.05549738219884]
+	  SceneRectInView	  [-244.82400196335061, 603.05549738219884, 1008.8, 470.4]
 	}
 	Object {
 	  $ObjectID		  7
@@ -648,7 +648,7 @@ Model {
       "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAABgAFMAaQBtAHUAb"
       "ABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZ"
       "QBzAAAAAAD/////AAAAjAD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
-      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAKAAAABNMAAAABAAAAAgAAAAEAAAAC/"
+      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAKAAAABNUAAAABAAAAAgAAAAEAAAAC/"
       "AAAAAA="
       Array {
 	Type			"Cell"
@@ -665,11 +665,11 @@ Model {
   Created		  "Fri Feb 08 15:09:51 2002"
   Creator		  "fh"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "hwanmooy"
+  LastModifiedBy	  "ku347"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sun Oct 22 17:57:49 2023"
-  RTWModifiedTimeStamp	  619898265
-  ModelVersionFormat	  "%<AutoIncrement:11.28>"
+  LastModifiedDate	  "Mon Nov 27 01:00:45 2023"
+  RTWModifiedTimeStamp	  622947644
+  ModelVersionFormat	  "%<AutoIncrement:11.29>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -2531,7 +2531,7 @@ Model {
 	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "113"
+	    ZoomFactor		    "250"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
@@ -2609,7 +2609,7 @@ Model {
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
 	      MultithreadedSim	      "auto"
-	      xname		      "Car.CRR.rz_ext"
+	      xname		      "Car.CRL.rz_ext"
 	      xsync		      off
 	      xstime		      "Inherited"
 	    }
@@ -2694,7 +2694,7 @@ Model {
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
 	      MultithreadedSim	      "auto"
-	      xname		      "Car.CRL.rz_ext"
+	      xname		      "Car.CRR.rz_ext"
 	      xsync		      off
 	      xstime		      "Inherited"
 	    }
