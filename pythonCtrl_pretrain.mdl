@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "11.30"
+    ComputedModelVersion    "11.40"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -19,7 +19,7 @@ Model {
     IsExportFunctionModel   0
     SimulinkSubDomainType   "Simulink"
     NumParameterArguments   0
-    NumExternalFileReferences 45
+    NumExternalFileReferences 47
     ExternalFileReference {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "pythonCtrl_pretrain/CarMaker/CM_LAST/Read CM Dict1"
@@ -156,6 +156,18 @@ Model {
       Reference		      "CarMaker4SL/Read CM Dict"
       Path		      "pythonCtrl_pretrain/CarMaker/Steering/Read CM Dict5"
       SID		      "5673"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "simulink/Discrete/Discrete Derivative"
+      Path		      "pythonCtrl_pretrain/CarMaker/VehicleControl/CreateBus VhclCtrl/Discrete Derivative"
+      SID		      "5697"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "CarMaker4SL/Read CM Dict"
+      Path		      "pythonCtrl_pretrain/CarMaker/VehicleControl/CreateBus VhclCtrl/Read CM Dict"
+      SID		      "5695"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
@@ -319,7 +331,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-7.0, -7.0, 1721.0, 1041.0]
+      Location		      [2552.0, -8.0, 1936.0, 1056.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -342,25 +354,25 @@ Model {
 	Dimension		24
 	Object {
 	  $ObjectID		  5
-	  IsActive		  [1]
+	  IsActive		  [0]
 	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1740"
-	  Extents		  [2504.0, 1218.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [-448.62644747105969, 464.19069248562477]
-	  SceneRectInView	  [-448.62644747105969, 464.19069248562477, 1335.4666666666667, 649.6]
+	  LoadSaveID		  "2196"
+	  Extents		  [1882.0, 816.0]
+	  ZoomFactor		  [1.2457348443986558]
+	  Offset		  [-61.095096292138216, 117.8115704229712]
+	  SceneRectInView	  [-61.095096292138216, 117.8115704229712, 1510.7548837236577, 655.03506116817459]
 	}
 	Object {
 	  $ObjectID		  6
-	  IsActive		  [0]
+	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
-	  Extents		  [2504.0, 1218.0]
-	  ZoomFactor		  [3.4122088761200633]
-	  Offset		  [-52.244645177648067, -9.4845096650860228]
-	  SceneRectInView	  [-52.244645177648067, -9.4845096650860228, 489.22366535529625, 237.96901933017205]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "2210"
+	  Extents		  [1882.0, 816.0]
+	  ZoomFactor		  [1.5]
+	  Offset		  [-202.54413990584783, -148.68759199461061]
+	  SceneRectInView	  [-202.54413990584783, -148.68759199461061, 1254.6666666666667, 544.0]
 	}
 	Object {
 	  $ObjectID		  7
@@ -368,32 +380,32 @@ Model {
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "1726"
-	  Extents		  [2504.0, 1218.0]
-	  ZoomFactor		  [1.295415683439948]
-	  Offset		  [-230.11173441325275, -142.24333745785538]
-	  SceneRectInView	  [-230.11173441325275, -142.24333745785538, 1288.6468449266072, 626.82582153378894]
+	  Extents		  [1882.0, 816.0]
+	  ZoomFactor		  [3.0]
+	  Offset		  [303.59719703856825, 5.9995103650539363]
+	  SceneRectInView	  [303.59719703856825, 5.9995103650539363, 627.33333333333337, 272.0]
 	}
 	Object {
 	  $ObjectID		  8
 	  IsActive		  [0]
 	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2196"
-	  Extents		  [2504.0, 1218.0]
-	  ZoomFactor		  [1.2628423141719207]
-	  Offset		  [12.869595715131027, 247.49317381447645]
-	  SceneRectInView	  [12.869595715131027, 247.49317381447645, 1321.8858083861082, 642.99397548493607]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1882.0, 816.0]
+	  ZoomFactor		  [5.1183133141800949]
+	  Offset		  [-52.244645177648067, -9.4845096650860228]
+	  SceneRectInView	  [-52.244645177648067, -9.4845096650860228, 367.69925646911645, 159.4275203394256]
 	}
 	Object {
 	  $ObjectID		  9
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2210"
-	  Extents		  [2504.0, 1218.0]
-	  ZoomFactor		  [1.5]
-	  Offset		  [-351.99170888826853, -108.13320164920907]
-	  SceneRectInView	  [-351.99170888826853, -108.13320164920907, 1112.8888888888889, 541.33333333333337]
+	  LoadSaveID		  "1740"
+	  Extents		  [1882.0, 816.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-506.74414406610009, 594.7132291846109]
+	  SceneRectInView	  [-506.74414406610009, 594.7132291846109, 1505.6, 652.8]
 	}
 	Object {
 	  $ObjectID		  10
@@ -618,8 +630,8 @@ Model {
 	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
 	  Floating		  [0]
 	  DockPosition		  "Left"
-	  Width			  [426]
-	  Height		  [320]
+	  Width			  [640]
+	  Height		  [480]
 	  Minimized		  "Unset"
 	}
 	Object {
@@ -631,18 +643,18 @@ Model {
 	  UserData		  ""
 	  Floating		  [0]
 	  DockPosition		  "Right"
-	  Width			  [426]
-	  Height		  [320]
+	  Width			  [640]
+	  Height		  [480]
 	  Minimized		  "Unset"
 	}
 	PropName		"DockComponentsInfo"
       }
       WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAACTAP////sAAABgAFMAaQBtAHUAb"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAABgAFMAaQBtAHUAb"
       "ABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZ"
-      "QBzAAAAAAD/////AAAAxwD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
-      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAoAA////AAAKAAAABRAAAAABAAAAAgAAAAEAAAAC/"
+      "QBzAAAAAAD/////AAAAjAD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
+      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAHgAAAA20AAAABAAAAAgAAAAEAAAAC/"
       "AAAAAA="
       Array {
 	Type			"Cell"
@@ -659,11 +671,11 @@ Model {
   Created		  "Fri Feb 08 15:09:51 2002"
   Creator		  "fh"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "hwanmooy"
+  LastModifiedBy	  "ku347"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Nov 27 15:19:09 2023"
-  RTWModifiedTimeStamp	  622999092
-  ModelVersionFormat	  "%<AutoIncrement:11.30>"
+  LastModifiedDate	  "Tue Nov 28 02:56:35 2023"
+  RTWModifiedTimeStamp	  623040991
+  ModelVersionFormat	  "%<AutoIncrement:11.40>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -1642,10 +1654,6 @@ Model {
       BusSelectionMode	      off
     }
     Block {
-      BlockType		      Derivative
-      CoefficientInTFapproximation "inf"
-    }
-    Block {
       BlockType		      Display
       Format		      "short"
       Decimation	      "10"
@@ -2056,9 +2064,9 @@ Model {
   }
   System {
     Name		    "pythonCtrl_pretrain"
-    Location		    [-7, -7, 1714, 1034]
+    Location		    [2552, -8, 4488, 1048]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    on
+    Open		    off
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -2072,9 +2080,9 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "341"
+    ZoomFactor		    "512"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "5686"
+    SIDHighWatermark	    "5697"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      SubSystem
@@ -2094,7 +2102,7 @@ Model {
       }
       System {
 	Name			"CarMaker"
-	Location		[-7, -7, 1714, 1034]
+	Location		[2552, -8, 4488, 1048]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -2110,7 +2118,7 @@ Model {
 	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"130"
+	ZoomFactor		"300"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  BusSelector
@@ -2513,9 +2521,9 @@ Model {
 	  "}],\"packageUris\":[\"http://schema.mathworks.com/mf0/Connector/R2020b\"],\"version\":\"1.0\"}"
 	  System {
 	    Name		    "CM_LAST"
-	    Location		    [-7, -7, 1714, 1034]
+	    Location		    [2552, -8, 4488, 1048]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-	    Open		    on
+	    Open		    off
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
 	    ExecutionDomainType	    "Deduce"
@@ -2540,18 +2548,18 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Inport
-	      Name		      "connect"
-	      SID		      "5640"
-	      Position		      [225, 213, 255, 227]
-	      ZOrder		      20198
-	      Port		      "2"
-	    }
-	    Block {
-	      BlockType		      Inport
 	      Name		      "action"
 	      SID		      "5686"
 	      Position		      [225, 1063, 255, 1077]
 	      ZOrder		      20212
+	      Port		      "2"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "action1"
+	      SID		      "5692"
+	      Position		      [225, 213, 255, 227]
+	      ZOrder		      20214
 	      Port		      "3"
 	    }
 	    Block {
@@ -2994,13 +3002,6 @@ Model {
 	      DstPort		      4
 	    }
 	    Line {
-	      ZOrder		      19
-	      SrcBlock		      "connect"
-	      SrcPort		      1
-	      DstBlock		      "Mux"
-	      DstPort		      1
-	    }
-	    Line {
 	      ZOrder		      41
 	      SrcBlock		      "Read CM Dict13"
 	      SrcPort		      1
@@ -3062,6 +3063,13 @@ Model {
 	      SrcPort		      1
 	      DstBlock		      "Mux"
 	      DstPort		      18
+	    }
+	    Line {
+	      ZOrder		      78
+	      SrcBlock		      "action1"
+	      SrcPort		      1
+	      DstBlock		      "Mux"
+	      DstPort		      1
 	    }
 	  }
 	}
@@ -16382,8 +16390,8 @@ Model {
 	      RTWMemSecDataParameters "Inherit from model"
 	      ContentPreviewEnabled   off
 	      relop		      "~="
-	      const		      1
-	      OutDataTypeStr	      boolean
+	      const		      "1"
+	      OutDataTypeStr	      "boolean"
 	      ZeroCross		      off
 	    }
 	    Block {
@@ -17940,15 +17948,15 @@ Model {
 	  Name			  "VehicleControl"
 	  SID			  "2196"
 	  Ports			  [2, 9]
-	  Position		  [370, 32, 495, 158]
+	  Position		  [370, 36, 495, 164]
 	  ZOrder		  -7
 	  BackgroundColor	  "green"
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "VehicleControl"
-	    Location		    [-7, -7, 1714, 1034]
+	    Location		    [2552, -8, 4488, 1048]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-	    Open		    off
+	    Open		    on
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
 	    ExecutionDomainType	    "Deduce"
@@ -17962,7 +17970,7 @@ Model {
 	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "126"
+	    ZoomFactor		    "125"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
@@ -18458,14 +18466,14 @@ Model {
 	      Name		      "CreateBus VhclCtrl"
 	      SID		      "2210"
 	      Ports		      [1, 3]
-	      Position		      [225, 354, 380, 406]
+	      Position		      [225, 358, 380, 412]
 	      ZOrder		      -6
 	      RequestExecContextInheritance off
 	      System {
 		Name			"CreateBus VhclCtrl"
-		Location		[-7, -7, 1714, 1034]
+		Location		[2552, -8, 4488, 1048]
 		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-		Open			off
+		Open			on
 		PortBlocksUseCompactNotation off
 		SetExecutionDomain	off
 		ExecutionDomainType	"Deduce"
@@ -18638,11 +18646,34 @@ Model {
 		  Outputs		  "2"
 		}
 		Block {
-		  BlockType		  Derivative
-		  Name			  "Derivative"
-		  SID			  "5681"
-		  Position		  [435, 65, 465, 95]
-		  ZOrder		  20199
+		  BlockType		  Reference
+		  Name			  "Discrete Derivative"
+		  SID			  "5697"
+		  Ports			  [1, 1]
+		  Position		  [520, 57, 580, 93]
+		  ZOrder		  20210
+		  LibraryVersion	  "1.481"
+		  SourceBlock		  "simulink/Discrete/Discrete Derivative"
+		  SourceType		  "Discrete Derivative"
+		  SourceProductBaseCode	  "SL"
+		  RTWMemSecFuncInitTerm	  "Inherit from model"
+		  RTWMemSecFuncExecute	  "Inherit from model"
+		  RTWMemSecDataConstants  "Inherit from model"
+		  RTWMemSecDataInternal	  "Inherit from model"
+		  RTWMemSecDataParameters "Inherit from model"
+		  ContentPreviewEnabled	  on
+		  gainval		  "1.0"
+		  ICPrevScaledInput	  "0.0"
+		  InputProcessing	  "Elements as channels (sample based)"
+		  OutMin		  "[]"
+		  OutMax		  "[]"
+		  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+		  OutputDataTypeScalingMode "Inherit via internal rule"
+		  OutDataType		  "fixdt(1, 16)"
+		  OutScaling		  "2^-10"
+		  LockScale		  off
+		  RndMeth		  "Floor"
+		  DoSatur		  off
 		}
 		Block {
 		  BlockType		  Gain
@@ -18656,7 +18687,7 @@ Model {
 		  BlockType		  Gain
 		  Name			  "Gain1"
 		  SID			  "5682"
-		  Position		  [510, 65, 560, 95]
+		  Position		  [620, 60, 670, 90]
 		  ZOrder		  20200
 		  Gain			  "1/15"
 		}
@@ -18667,6 +18698,23 @@ Model {
 		  Ports			  [1, 1]
 		  Position		  [-255, -15, -225, 15]
 		  ZOrder		  20195
+		}
+		Block {
+		  BlockType		  Reference
+		  Name			  "Read CM Dict"
+		  SID			  "5695"
+		  Ports			  [0, 1]
+		  Position		  [410, 65, 480, 85]
+		  ZOrder		  20208
+		  BackgroundColor	  "orange"
+		  LibraryVersion	  "1.496"
+		  SourceBlock		  "CarMaker4SL/Read CM Dict"
+		  SourceType		  "Read CarMaker Dictionary Variable(s)"
+		  SourceProductName	  "CarMaker4SL"
+		  MultithreadedSim	  "auto"
+		  xname			  "DM.Steer.Ang"
+		  xsync			  off
+		  xstime		  "Inherited"
 		}
 		Block {
 		  BlockType		  Terminator
@@ -18706,18 +18754,18 @@ Model {
 		}
 		Block {
 		  BlockType		  Outport
-		  Name			  "connect"
-		  SID			  "5637"
-		  Position		  [475, -38, 505, -22]
-		  ZOrder		  20196
+		  Name			  "action"
+		  SID			  "5683"
+		  Position		  [695, 67, 725, 83]
+		  ZOrder		  20201
 		  Port			  "2"
 		}
 		Block {
 		  BlockType		  Outport
-		  Name			  "action"
-		  SID			  "5683"
-		  Position		  [585, 72, 615, 88]
-		  ZOrder		  20201
+		  Name			  "action1"
+		  SID			  "5690"
+		  Position		  [475, -38, 505, -22]
+		  ZOrder		  20205
 		  Port			  "3"
 		}
 		Line {
@@ -18857,18 +18905,8 @@ Model {
 		  Labels		  [0, 0]
 		  SrcBlock		  "Demux"
 		  SrcPort		  14
-		  Points		  [127, 0]
-		  Branch {
-		    ZOrder		    154
-		    Points		    [0, -227; 78, 0; 0, 77]
-		    DstBlock		    "Derivative"
-		    DstPort		    1
-		  }
-		  Branch {
-		    ZOrder		    153
-		    DstBlock		    "BusCreator"
-		    DstPort		    14
-		  }
+		  DstBlock		  "BusCreator"
+		  DstPort		  14
 		}
 		Line {
 		  Name			  "VhclCtrl Steering AngVel"
@@ -19013,13 +19051,6 @@ Model {
 		  DstPort		  1
 		}
 		Line {
-		  ZOrder		  37
-		  SrcBlock		  "Demux1"
-		  SrcPort		  1
-		  DstBlock		  "connect"
-		  DstPort		  1
-		}
-		Line {
 		  ZOrder		  35
 		  SrcBlock		  "tcpiprcv"
 		  SrcPort		  1
@@ -19034,13 +19065,6 @@ Model {
 		  DstPort		  1
 		}
 		Line {
-		  ZOrder		  152
-		  SrcBlock		  "Derivative"
-		  SrcPort		  1
-		  DstBlock		  "Gain1"
-		  DstPort		  1
-		}
-		Line {
 		  ZOrder		  155
 		  SrcBlock		  "Gain1"
 		  SrcPort		  1
@@ -19052,6 +19076,27 @@ Model {
 		  SrcBlock		  "Integrator"
 		  SrcPort		  1
 		  DstBlock		  "Terminator"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  185
+		  SrcBlock		  "Demux1"
+		  SrcPort		  1
+		  DstBlock		  "action1"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  189
+		  SrcBlock		  "Read CM Dict"
+		  SrcPort		  1
+		  DstBlock		  "Discrete Derivative"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  190
+		  SrcBlock		  "Discrete Derivative"
+		  SrcPort		  1
+		  DstBlock		  "Gain1"
 		  DstPort		  1
 		}
 	      }
@@ -19545,24 +19590,25 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Outport
-	      Name		      "connect"
-	      SID		      "5638"
-	      Position		      [830, 488, 860, 502]
-	      ZOrder		      1
-	      Port		      "8"
-	    }
-	    Block {
-	      BlockType		      Outport
 	      Name		      "action"
 	      SID		      "5685"
 	      Position		      [830, 523, 860, 537]
 	      ZOrder		      2
+	      Port		      "8"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "action1"
+	      SID		      "5691"
+	      Position		      [760, 613, 790, 627]
+	      ZOrder		      3
 	      Port		      "9"
 	    }
 	    Line {
 	      ZOrder		      1
 	      SrcBlock		      "CreateBus VhclCtrl"
 	      SrcPort		      1
+	      Points		      [65, 0; 0, -5]
 	      DstBlock		      "VehicleControlUpd"
 	      DstPort		      2
 	    }
@@ -19570,7 +19616,7 @@ Model {
 	      ZOrder		      2
 	      SrcBlock		      "VehicleControl"
 	      SrcPort		      2
-	      Points		      [13, 0; 0, 15]
+	      Points		      [13, 0; 0, 20]
 	      DstBlock		      "CreateBus VhclCtrl"
 	      DstPort		      1
 	    }
@@ -19698,19 +19744,19 @@ Model {
 	      DstPort		      1
 	    }
 	    Line {
-	      ZOrder		      20
+	      ZOrder		      21
 	      SrcBlock		      "CreateBus VhclCtrl"
 	      SrcPort		      2
-	      Points		      [11, 0; 0, 115]
-	      DstBlock		      "connect"
+	      Points		      [11, 0; 0, 119; 280, 0; 0, 26]
+	      DstBlock		      "action"
 	      DstPort		      1
 	    }
 	    Line {
-	      ZOrder		      21
+	      ZOrder		      22
 	      SrcBlock		      "CreateBus VhclCtrl"
 	      SrcPort		      3
-	      Points		      [3, 0; 0, 117; 288, 0; 0, 18]
-	      DstBlock		      "action"
+	      Points		      [73, 0; 0, 220]
+	      DstBlock		      "action1"
 	      DstPort		      1
 	    }
 	    Annotation {
@@ -19787,10 +19833,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "SC.State"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	    }
 	    Block {
 	      BlockType		      Reference
@@ -19804,10 +19850,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.PitchAcc"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	    }
 	    Block {
 	      BlockType		      Reference
@@ -19821,10 +19867,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.RollAcc"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	    }
 	    Block {
 	      BlockType		      Reference
@@ -19838,10 +19884,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.Roll"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	    }
 	    Block {
 	      BlockType		      Reference
@@ -19855,10 +19901,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.ax"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	      Port {
 		PortNumber		1
 		Name			"Longitudinal_Acc[m/s2]"
@@ -19876,10 +19922,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.ay"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	      Port {
 		PortNumber		1
 		Name			"Lateral_Acc[m/s2]"
@@ -19897,10 +19943,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
-	      xname		      Time
+	      MultithreadedSim	      "auto"
+	      xname		      "Time"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	    }
 	    Block {
 	      BlockType		      Reference
@@ -19914,10 +19960,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.CFL.tz"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	      Port {
 		PortNumber		1
 		Name			"FL carrier z position from body reference point(fr1) [m]"
@@ -19935,10 +19981,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.CFR.tz"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	      Port {
 		PortNumber		1
 		Name			"FR carrier z position from body reference point(fr1) [m]"
@@ -19956,10 +20002,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.CRL.tz"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	      Port {
 		PortNumber		1
 		Name			"RL carrier z position from body reference point(fr1) [m]"
@@ -19977,10 +20023,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.CRR.tz"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	      Port {
 		PortNumber		1
 		Name			"RR carrier z position from body reference point(fr1) [m]"
@@ -19998,10 +20044,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.v"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	      Port {
 		PortNumber		1
 		Name			"Speed[m/s]"
@@ -20019,10 +20065,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.tx"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	    }
 	    Block {
 	      BlockType		      Reference
@@ -20036,10 +20082,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.Yaw"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	    }
 	    Block {
 	      BlockType		      Reference
@@ -20053,10 +20099,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.ty"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	    }
 	    Block {
 	      BlockType		      Reference
@@ -20070,10 +20116,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.Distance"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	    }
 	    Block {
 	      BlockType		      Reference
@@ -20087,10 +20133,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.YawRate"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	      Port {
 		PortNumber		1
 		Name			"YawRate[rad|s]"
@@ -20108,10 +20154,10 @@ Model {
 	      SourceBlock	      "CarMaker4SL/Read CM Dict"
 	      SourceType	      "Read CarMaker Dictionary Variable(s)"
 	      SourceProductName	      "CarMaker4SL"
-	      MultithreadedSim	      auto
+	      MultithreadedSim	      "auto"
 	      xname		      "Car.Pitch"
 	      xsync		      off
-	      xstime		      Continuous
+	      xstime		      "Continuous"
 	    }
 	    Block {
 	      BlockType		      SubSystem
@@ -21636,7 +21682,7 @@ Model {
 	  ZOrder		  1
 	  SrcBlock		  "DrivMan"
 	  SrcPort		  2
-	  Points		  [7, 0; 0, 10]
+	  Points		  [7, 0; 0, 20]
 	  DstBlock		  "VehicleControl"
 	  DstPort		  2
 	}
@@ -21644,7 +21690,7 @@ Model {
 	  ZOrder		  2
 	  SrcBlock		  "DrivMan"
 	  SrcPort		  1
-	  Points		  [13, 0; 0, 10]
+	  Points		  [13, 0; 0, 15]
 	  DstBlock		  "VehicleControl"
 	  DstPort		  1
 	}
@@ -21687,7 +21733,6 @@ Model {
 	  ZOrder		  8
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  1
-	  Points		  [15, 0; 0, 5]
 	  DstBlock		  "IPG Vehicle"
 	  DstPort		  1
 	}
@@ -21695,7 +21740,6 @@ Model {
 	  ZOrder		  9
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  3
-	  Points		  [5, 0; 0, 5]
 	  DstBlock		  "IPG Vehicle"
 	  DstPort		  3
 	}
@@ -21703,7 +21747,6 @@ Model {
 	  ZOrder		  10
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  4
-	  Points		  [15, 0; 0, 5]
 	  DstBlock		  "IPG Vehicle"
 	  DstPort		  4
 	}
@@ -21711,7 +21754,6 @@ Model {
 	  ZOrder		  11
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  5
-	  Points		  [10, 0; 0, 5]
 	  DstBlock		  "IPG Vehicle"
 	  DstPort		  5
 	}
@@ -21719,7 +21761,6 @@ Model {
 	  ZOrder		  12
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  6
-	  Points		  [5, 0; 0, 5]
 	  DstBlock		  "IPG Vehicle"
 	  DstPort		  6
 	}
@@ -21727,7 +21768,6 @@ Model {
 	  ZOrder		  13
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  7
-	  Points		  [15, 0; 0, 5]
 	  DstBlock		  "IPG Vehicle"
 	  DstPort		  7
 	}
@@ -21735,7 +21775,6 @@ Model {
 	  ZOrder		  14
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  2
-	  Points		  [10, 0; 0, 5]
 	  DstBlock		  "IPG Vehicle"
 	  DstPort		  2
 	}
@@ -21792,18 +21831,18 @@ Model {
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  132
+	  ZOrder		  133
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  8
-	  Points		  [3, 0; 0, 41; 227, 0]
+	  Points		  [3, 0; 0, 18; 227, 0]
 	  DstBlock		  "CM_LAST"
 	  DstPort		  2
 	}
 	Line {
-	  ZOrder		  133
+	  ZOrder		  134
 	  SrcBlock		  "VehicleControl"
 	  SrcPort		  9
-	  Points		  [10, 0; 0, 47; 260, 0]
+	  Points		  [1, 0; 0, 52; 39, 0; 0, -10; 230, 0]
 	  DstBlock		  "CM_LAST"
 	  DstPort		  3
 	}
