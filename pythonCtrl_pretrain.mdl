@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "11.40"
+    ComputedModelVersion    "11.41"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -331,7 +331,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [2552.0, -8.0, 1936.0, 1056.0]
+      Location		      [8.0, 8.0, 1936.0, 1056.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -360,8 +360,8 @@ Model {
 	  LoadSaveID		  "2196"
 	  Extents		  [1882.0, 816.0]
 	  ZoomFactor		  [1.2457348443986558]
-	  Offset		  [-61.095096292138216, 117.8115704229712]
-	  SceneRectInView	  [-61.095096292138216, 117.8115704229712, 1510.7548837236577, 655.03506116817459]
+	  Offset		  [-61.095096292138237, 117.81157042297122]
+	  SceneRectInView	  [-61.095096292138237, 117.81157042297122, 1510.7548837236577, 655.03506116817459]
 	}
 	Object {
 	  $ObjectID		  6
@@ -623,19 +623,6 @@ Model {
 	Dimension		2
 	Object {
 	  $ObjectID		  29
-	  Type			  "Simulink:Editor:ReferencedFiles"
-	  ID			  "Referenced Files"
-	  Visible		  [0]
-	  CreateCallback	  ""
-	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
-	  Floating		  [0]
-	  DockPosition		  "Left"
-	  Width			  [640]
-	  Height		  [480]
-	  Minimized		  "Unset"
-	}
-	Object {
-	  $ObjectID		  30
 	  Type			  "GLUE2:PropertyInspector"
 	  ID			  "Property Inspector"
 	  Visible		  [0]
@@ -643,6 +630,19 @@ Model {
 	  UserData		  ""
 	  Floating		  [0]
 	  DockPosition		  "Right"
+	  Width			  [640]
+	  Height		  [480]
+	  Minimized		  "Unset"
+	}
+	Object {
+	  $ObjectID		  30
+	  Type			  "Simulink:Editor:ReferencedFiles"
+	  ID			  "Referenced Files"
+	  Visible		  [0]
+	  CreateCallback	  ""
+	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
+	  Floating		  [0]
+	  DockPosition		  "Left"
 	  Width			  [640]
 	  Height		  [480]
 	  Minimized		  "Unset"
@@ -673,9 +673,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "ku347"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Tue Nov 28 02:56:35 2023"
-  RTWModifiedTimeStamp	  623040991
-  ModelVersionFormat	  "%<AutoIncrement:11.40>"
+  LastModifiedDate	  "Tue Nov 28 03:45:38 2023"
+  RTWModifiedTimeStamp	  623043937
+  ModelVersionFormat	  "%<AutoIncrement:11.41>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -2082,7 +2082,7 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "512"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "5697"
+    SIDHighWatermark	    "5698"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      SubSystem
@@ -17954,7 +17954,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "VehicleControl"
-	    Location		    [2552, -8, 4488, 1048]
+	    Location		    [8, 8, 1944, 1064]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    on
 	    PortBlocksUseCompactNotation off
@@ -18471,7 +18471,7 @@ Model {
 	      RequestExecContextInheritance off
 	      System {
 		Name			"CreateBus VhclCtrl"
-		Location		[2552, -8, 4488, 1048]
+		Location		[8, 8, 1944, 1064]
 		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 		Open			on
 		PortBlocksUseCompactNotation off
