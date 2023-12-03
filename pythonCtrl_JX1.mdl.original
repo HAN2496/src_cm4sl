@@ -2,7 +2,7 @@ Model {
   Name			  "pythonCtrl_JX1"
   Version		  10.3
   SavedCharacterEncoding  "windows-949"
-  ModelUUID		  "4c537e1f-6390-42b2-9017-fbb7e9ac00fd"
+  ModelUUID		  "0078b453-0220-4dc6-9b8c-e2f25f902eb2"
   GraphicalInterface {
     NumRootInports	    0
     NumRootOutports	    0
@@ -657,7 +657,7 @@ Model {
       }
       WindowUuid	      "f03f53a0-d5dd-44ef-a515-150c56440ef5"
     }
-    BDUuid		    "810ea621-51e7-48e9-b6e6-505d73f45c1c"
+    BDUuid		    "f8ea0c32-6db7-4c68-9aab-f9de5750f175"
   }
   HideAutomaticNames	  on
   SequenceViewerTimePrecision 3
@@ -667,8 +667,8 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "ku347"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Nov 29 03:35:15 2023"
-  RTWModifiedTimeStamp	  623126304
+  LastModifiedDate	  "Mon Nov 27 01:00:45 2023"
+  RTWModifiedTimeStamp	  622947644
   ModelVersionFormat	  "%<AutoIncrement:11.29>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -2098,7 +2098,7 @@ Model {
 	Name			"CarMaker"
 	Location		[-8, -8, 2568, 1408]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
+	Open			on
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -2517,7 +2517,7 @@ Model {
 	    Name		    "CM_LAST"
 	    Location		    [-8, -8, 2568, 1408]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-	    Open		    off
+	    Open		    on
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
 	    ExecutionDomainType	    "Deduce"
@@ -2863,7 +2863,7 @@ Model {
 	      SourceType	      "TCP/IP Send"
 	      SourceProductBaseCode   "IC"
 	      Host		      "127.0.0.1"
-	      Port		      "10000"
+	      Port		      "80"
 	      EnableBlockingMode      on
 	      Timeout		      "30"
 	      ByteOrder		      "BigEndian"
@@ -18669,7 +18669,7 @@ Model {
 		  SourceType		  "TCP/IP Receive"
 		  SourceProductBaseCode	  "IC"
 		  Host			  "127.0.0.1"
-		  Port			  "10000"
+		  Port			  "80"
 		  DataSize		  "[1  2]"
 		  EnableBlockingMode	  on
 		  Timeout		  "10"
